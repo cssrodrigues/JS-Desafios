@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: white; /* Adiciona um fundo mais claro */
+}
+
+header {
+    background-color: #cc5355;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+#lamp {
+    width: 100px; /* Ajuste o tamanho desejado */
+    max-width: 100%; /* Garante que o tamanho não ultrapasse o contêiner */
+    cursor: pointer;
+    transition: opacity 0.3s ease; /* Adiciona uma transição suave ao efeito de opacidade */
+}
+
+#lamp:hover {
+    opacity: 0.7;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+

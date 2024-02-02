@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: white; /* Adiciona um fundo mais claro */
+}
+
+header {
+    background-color: #cc5355;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #1f3644;
+}
+
+button {
+    background-color: #de4141;
+    color: white;
+    padding: 3px;
+    margin: 3px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave à cor de fundo */
+}
+
+button:hover {
+    background-color: #0e100e;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+#result {
+    font-weight: bold;
+    color: #b04f5a;
+    
+}
+
